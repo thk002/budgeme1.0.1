@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="Stylesheet.css"/>
+    <title>Budget</title>
+  </head>
+  <body>
+
+    <ul class="nav">
+      <li class="nav-tabs"><a href="index.html">Home</a></li>
+      <li class="nav-tabs"><a href="social.html">Social</a></li>
+      <li class="tab-active nav-tabs"><a href="budget.html">Budget</a></li>
+      <li class="nav-tabs"><a href="settings.html">Settings</a></li>
+    </ul>
+    
+   <div id="budget">
+    <ul>
+      <li class="budg-item"> Weekly Budget 
+        <input type="range" class="slider" min="0" max="250" value="0" step="5" oninput="showValue1(this.value)" />
+        <span id="range1">0</span>
+      </li>
+
+      <li class="budg-item"> Groceries
+        <input type="range" class="slider" min="0" max="50" value="0" step="10" oninput="showValue2(this.value)" />
+        <span id="range2">0</span>
+      </li>
+
+      <li class="budg-item"> Fast Food 
+        <input type="range" class="slider" min="0" max="50" value="0" step="10" oninput="showValue3(this.value)" />
+        <span id="range3">0</span>
+      </li>
+
+      <li class="budg-item"> Entertainment 
+        <input type="range" class="slider" min="0" max="50" value="0" step="10" oninput="showValue4(this.value)" />
+        <span id="range4">0</span>
+      </li>
+
+      <!-- Be able to input category whichs appends this li item -->
+      <li><a href="#" id="new-cat">Add Category</a></li>
+    </ul>
+  </div>
+
+
+
+
+  <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+  <script src="javascript.js"></script>
+  </body>
+</html>
+
+
