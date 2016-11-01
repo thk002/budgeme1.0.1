@@ -1,160 +1,72 @@
 {
-	"dailyItems": [
+	"dailyRewards": [
 		{
-			"dailyRewards": [
+			"remark": "Yeah, great job! Your reward is: ",
+			"item": [
 				{
-					"remark": "Yeah, great job! Your reward is: ",
-					"item": [
-						{
-							"title": "small fertilizer",
-							"imageURL": "http://www.clipartkid.com/images/681/some-fertilizers-are-manufactured-in-the-laboratory-while-others-are-lkQqF2-clipart.gif",			
-							"action": "Use this to make your plants grow"
-						}
-					]
-				},
-				{
-					"remark": "Awesome, keep it up! Your reward is: ",
-					"item": [
-						{
-							"title": "small pesticide",
-							"imageURL": "http://www.clipartkid.com/images/681/some-fertilizers-are-manufactured-in-the-laboratory-while-others-are-lkQqF2-clipart.gif",			
-							"action": "Use this to get rid of pesty bugs"
-						}
-					]
-				},
-				{
-					"remark": "One of the rewards of success is freedom, the ability to do whatever you like! Your reward is: ",
-					"item": [
-						{
-							"title": "small water",
-							"imageURL": "http://www.clipartkid.com/images/681/some-fertilizers-are-manufactured-in-the-laboratory-while-others-are-lkQqF2-clipart.gif",			
-							"action": "Use this to help your plants grow"
-						}
-					]
-				},
-				{
-					"remark": "Being in control of your finances is a great stress reliever! Your reward is: ",
-					"item": [
-						{
-							"title": "lettuce",
-							"imageURL": "http://thegraphicsfairy.com/wp-content/uploads/2014/04/Public-Domain-Lettuce-Image-GraphicsFairy1.jpg",
-							"action": "Lettuce is easy to grow and good to eat, add it to your garden"
-						}
-					]
-				},
-				{
-					"remark": "A balanced budget happens one day at a time! Your reward is: ",
-					"item": [
-						{
-							"title": "natural fertilizer",
-							"imageURL": "https://openclipart.org/download/172608/earthworm.svg",
-							"action": "Use this to help your plants grow"
-						}
-					]
-				},
-				{
-					"remark": "Not all bugs are equal! Your reward is: ",
-					"item": [
-						{
-							"title": "lady bugs",
-							"imageURL": "http://images.clipartpanda.com/bug-clipart-bug-clipart-09.jpg",
-							"action": "Use this ladybug to get eat bugs in the garden"
-						}
-					]
-				},
-				{
-					"remark": "The reward of a thing well done is having done it. Your reward is: ",
-					"item": [
-						{
-							"title": "scarecrow",
-							"imageURL": "http://images.clipartpanda.com/scarecrow-clip-art-scarecrow-clip-art-3.gif",
-							"action": "Use this to scare away any birds in the garden"
-						}
-					]
+					"title": "small fertilizer",
+					"imageURL": "http://www.clipartkid.com/images/681/some-fertilizers-are-manufactured-in-the-laboratory-while-others-are-lkQqF2-clipart.gif",			
+					"action": "Use this to make your plants grow"
 				}
-			]		
-		//need pics for all but the first three
-			"dailyPenalty": [
+			]
+		},
+		{
+			"remark": "Awesome, keep it up! Your reward is: ",
+			"item": [
 				{
-					"remark": "Oh well, tomorrow is another day! Since you did not stay in budget you get: ",
-					"item": [
-						{
-							"title": "ants",
-							"imageURL": "http://cliparting.com/wp-content/uploads/2016/10/Ants-clipart-clipart.jpg",			
-							"action": "Ewww! Ants have infested your garden"
-						}
-					]
-				},
+					"title": "small pesticide",
+					"imageURL": "http://www.clipartkid.com/images/681/some-fertilizers-are-manufactured-in-the-laboratory-while-others-are-lkQqF2-clipart.gif",			
+					"action": "Use this to get rid of pesty bugs"
+				}
+			]
+		},
+		{
+			"remark": "One of the rewards of success is freedom, the ability to do whatever you like! Your reward is: ",
+			"item": [
 				{
-					"remark": "Oh no you'll have to do better next time! Since you did not stay in budget today you get: ",
-					"item": [
-						{
-							"title": "caterpillars",
-							"imageURL": "https://pixabay.com/static/uploads/photo/2012/04/18/00/21/caterpillar-36248_960_720.png",
-							"action": "Caterpillars will eat your plants, hurry up and get rid of them!"
-						}
-					]
-
-				},
+					"title": "small water",
+					"imageURL": "http://www.clipartkid.com/images/681/some-fertilizers-are-manufactured-in-the-laboratory-while-others-are-lkQqF2-clipart.gif",			
+					"action": "Use this to help your plants grow"
+				}
+			]
+		},
+		{
+			"remark": "Being in control of your finances is a great stress reliever! Your reward is: ",
+			"item": [
 				{
-					"remark": "Come on you can do better next time! Since you did not stay in budget you get: ",
-					"item": [
-						{
-							"title": "aphids",
-							"imageURL": "http://images.clipartpanda.com/bug-clipart-bug-clipart-03.jpg",
-							"action": "Aphids have infested your garden"			
-						}
-					]
-				},
+					"title": "lettuce",
+					"imageURL": "http://thegraphicsfairy.com/wp-content/uploads/2014/04/Public-Domain-Lettuce-Image-GraphicsFairy1.jpg",
+					"action": "Lettuce is easy to grow and good to eat, add it to your garden"
+				}
+			]
+		},
+		{
+			"remark": "A balanced budget happens one day at a time! Your reward is: ",
+			"item": [
 				{
-					"remark": "Come on you can do better next time! Since you did not stay in budget you get: ",
-					"item": [
-						{
-							"title": "snails",
-							"imageURL": "http://images.clipartpanda.com/snail-clip-art-MTLd7EaTa.png",
-							"action": "Yuck snails are gooing up your garden! Don't let them eat your plants"			
-						}
-					]
-				},
+					"title": "natural fertilizer",
+					"imageURL": "https://openclipart.org/download/172608/earthworm.svg",
+					"action": "Use this to help your plants grow"
+				}
+			]
+		},
+		{
+			"remark": "Not all bugs are equal! Your reward is: ",
+			"item": [
 				{
-					"remark": "Come on you can do better next time! Since you did not stay in budget today you get: ",
-					"item": [
-						{
-							"title": "grasshoppers",
-							"imageURL": "https://clipartion.com/wp-content/uploads/2015/11/grasshopper-drawing-outline-free-clipart-images-830x467.jpg",			
-							"action": "Ahhh grasshoppers are eating your plants"
-						}
-					]
-				},
+					"title": "lady bugs",
+					"imageURL": "http://images.clipartpanda.com/bug-clipart-bug-clipart-09.jpg",
+					"action": "Use this ladybug to get eat bugs in the garden"
+				}
+			]
+		},
+		{
+			"remark": "The reward of a thing well done is having done it. Your reward is: ",
+			"item": [
 				{
-					"remark": "Learn from yesterday, live for today, hope for tomorrow! Since you did not stay in budget you get: ",
-					"item": [
-						{
-							"title": "weeds",
-							"imageURL": "http://www.clipartkid.com/images/163/flower-dandelion-clip-art-at-clker-com-vector-clip-art-online-G4CEXy-clipart.png",			
-							"action": "Oh no weeds are stealing water and fertilizer nutrients from your plants"
-						}
-					]
-				},
-				{
-					"name": "The pessimist complains about the wind; the optimist expects it to change; the realist adjusts the sails. Since you did not stay in budget you get: ",
-					"item": [
-						{
-							"title": "fungus",
-							"imageURL": "http://cliparts.co/cliparts/KLT/d4n/KLTd4nai4.png",
-							"action": "Oh my your plants are sprouting mushrooms! Hurry up and get rid of them"
-						}
-					]
-				},
-				{
-					"name": "The pessimist complains about the wind; the optimist expects it to change; the realist adjusts the sails. Since you did not stay in budget you get: ",
-					"item": [
-						{
-							"title": "crow",
-							"imageURL": "http://images.clipartpanda.com/crow-clip-art-crow-clip-art-12.jpg",
-							"action": "Oh no the crow is eating your garden"
-						}
-					]
+					"title": "scarecrow",
+					"imageURL": "http://images.clipartpanda.com/scarecrow-clip-art-scarecrow-clip-art-3.gif",
+					"action": "Use this to scare away any birds in the garden"
 				}
 			]
 		}
