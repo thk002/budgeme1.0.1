@@ -1,4 +1,6 @@
 
+var counter = 4;
+
 $(document).ready(function() {
 	initializePage();
 })
@@ -14,7 +16,8 @@ function projectClick(e) {
 	e.preventDefault();
 	var category = $(this);
 	console.log(category);
-	category.prepend("<li class='budg-item'>New Category (Place Holder)</li>");
+	counter++;
+	category.prepend("<li class='budg-item'> New Category <input type='range' class='slider' min='0' max='50' value='0' step='10' oninput='showValue" + counter + "(this.value)' /><span id='range" + counter + "'>0</span></li>");
 }
 
 function showValue1(newValue)
