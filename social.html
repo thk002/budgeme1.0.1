@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="../public/css/Stylesheet.css"/>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <title>Social</title>
   </head>
   <body>
@@ -18,30 +22,98 @@
       <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Farm_garden_at_the_Hess_Homestead.jpg" alt="Your Garden" style="width:800px;height:600px">
     </div>
 
-    <div id="garden-members">
-    <!-- needs to be able to move around garden members, maybe with +/- icons -->
-      <ul>
-        <li><h3> Garden Members: </h3></li>
-        <li>Bart</li>
-        <li>Lisa</li>
-        <li>Homer</li>
-        <li>Marge</li>
-        <li><h4><a href="TBD.html"> Add/Remove Members</a></h4></li>
+    <div class="container">
+      <h2>Garden Status</h2>
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#home">Status</a></li>
+        <li><a data-toggle="tab" href="#menu1">Quests</a></li>
+        <li><a data-toggle="tab" href="#menu2">Items</a></li>
+        <li><a data-toggle="tab" href="#menu3">Friends</a></li>
       </ul>
-    </div>
 
-    <div id="friends">     
-    <!-- should bring up a prompt to allow you to remove current friends or add new ones -->
-      <ul>
-        <li><h3> Friends: </h3></li>
-        <li>Kyle</li>
-        <li>Stan</li>
-        <li>Kenny</li>
-        <li>Cartman</li>
-        <li>Butters</li>
-        <li><h4><a href="TBD.html"> Add/Remove Friends</a></h4></li>
-      </ul>
-    </div>
-    <!-- needs a lot of work still -->
+      <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+          <h3>Team Status</h3>
+          <p>Under Attack: Hungry Goat!</p>
+          <p>Player 3 did not meet their budget</p>
+          <p>Hurry up and clear the goat</p>
+        </div>
+        <div id="menu1" class="tab-pane fade">
+          <h3>Quests</h3>
+          <h2>Have you been keeping up with your budget?</h2>
+          <p>Did you spend no more than $5 on boba today?</p>
+          <button>Yes</button><button>No</button>
+          <p>Did you spend no more than $200 this week?</p>
+          <button>Yes</button><button>No</button>
+        </div>
+        <div id="menu2" class="tab-pane fade">
+          <h3>Garden Items</h3>
+          <p>Check Out Your Garden:</p>
+        
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Plant</th>
+              <th>Image</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Lettuce</td>
+              <td><img src="http://thegraphicsfairy.com/wp-content/uploads/2014/04/Public-Domain-Lettuce-Image-GraphicsFairy1.jpg" alt="" border=3 height=100 width=100></img></td>
+            </tr>
+            <tr>
+              <td>Watermelon</td>
+              <td><img src="http://foodclipart.com/food_clipart_images/a_watermelon_freshly_picked_from_the_vine_with_a_watermelon_slice_0515-0910-2901-0710_SMU.jpg" alt="" border=3 height=100 width=100></img></td>
+            </tr>
+            <tr>
+              <td>Strawberry</td>
+              <td><img src="http://www.clipartkid.com/images/366/strawberries-clip-art-at-clker-com-vector-clip-art-online-royalty-OnTw5V-clipart.png" alt="" border=3 height=100 width=100></img></td>
+            </tr>
+            <tr>
+              <td>Mint</td>
+              <td><img src="http://worldartsme.com/images/mint-clipart-1.jpg" alt="" border=3 height=100 width=100></img></td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Fertilizers: 2</th>
+              <th>Water: 2</th>
+              <th>Pesticide: 3</th>
+            </tr>
+          </thead>
+        </table>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Pests: 1</th>
+              <th>Contaminants: 0</th>
+            </tr>
+          </thead>
+        </table>
+          <div id="menu3" class="tab-pane fade">
+            <h3>Friends</h3>
+            <ul>
+              <li>My Team</li>
+              <ul>
+                <li> Lettuce </li>
+                <li> Watermelon </li>
+                <li> Strawberry </li>
+                <li> Mint </li>
+              </ul>
+                  <li>My Team</li>
+              <ul>
+                <li> Lettuce </li>
+                <li> Watermelon </li>
+                <li> Strawberry </li>
+                <li> Mint </li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </div>
+
   </body>
 </html>
